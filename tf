@@ -26,6 +26,8 @@ terraform init: checks configuration file & init work dir contains .tf file
 it understands we are making use of local provider based on the resource type declared
 in teh resource block and download plugins to work with resources mentioned in .tf file
 
+plugins will be downloaded in .terraform/plugins in the working directory of the terraform file
+
 terraform plan: shows action to create the resources --> review the plan
 terraform apply: to implement the plan by typing yes
 terraform destroy: to destroy the resources in the current confif dir
@@ -39,8 +41,17 @@ file_permissions = "0700"
 }
 #tf plan --> "-/+" which means the resource will be destroyed & recreated
 "#forces replcaement"--> shows responsible for this change.
-
 This type of infra is called immutable infrastructure
+
+Plugins will be downloaded from below link after running tf init
+registry.terraform.io/hashicorp/local
+|                        |        |
+hostname         Org Namespace   Providers
+
+
+
+
+
 
 
 
