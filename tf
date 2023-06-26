@@ -47,6 +47,21 @@ Plugins will be downloaded from below link after running tf init
 registry.terraform.io/hashicorp/local
 |                        |        |
 hostname         Org Namespace   Providers
+===============================================================================================================
+
+Terraform: Andrew Brown Course:
+-------------------------------
+IAC - teraform is an idempotent- Always matches the resources count in state file.
+
+configuration drfit:
+when provisioned infra has unexpected configuration changes
+
+AWS config or tf state file can dectect config drift
+
+Immutable Infrastructure:
+When vm is provisioned it turned into virtual image, stored in image repository, that image is used to deploy vm instances
+
+
 
 
 
