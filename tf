@@ -70,3 +70,5 @@ When vm is provisioned it turned into virtual image, stored in image repository,
 
 
 
+
+
